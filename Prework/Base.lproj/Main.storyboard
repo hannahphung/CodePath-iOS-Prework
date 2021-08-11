@@ -30,8 +30,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fP-L6-emY">
-                                <rect key="frame" x="291" y="217" width="85" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fP-L6-emY">
+                                <rect key="frame" x="331" y="217" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -51,9 +51,6 @@
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                 </segments>
-                                <connections>
-                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="EBp-C5-llU"/>
-                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ml-ro-Q9q">
                                 <rect key="frame" x="39" y="350" width="37" height="21"/>
@@ -62,8 +59,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vm9-7v-QYq">
-                                <rect key="frame" x="291" y="350" width="85" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vm9-7v-QYq">
+                                <rect key="frame" x="331" y="350" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -75,9 +72,9 @@
                     </view>
                     <connections>
                         <outlet property="billAmountTextField" destination="SFa-0Y-OY0" id="VRt-7p-wFk"/>
-                        <outlet property="tipAmountLabel" destination="6fP-L6-emY" id="x3k-jf-5dA"/>
-                        <outlet property="tipControl" destination="j9S-iG-rUk" id="Brm-mk-tjQ"/>
-                        <outlet property="totalLabel" destination="vm9-7v-QYq" id="cMa-UT-mI0"/>
+                        <outlet property="tipAmountLabel" destination="6fP-L6-emY" id="jW3-zL-Srt"/>
+                        <outlet property="tipControl" destination="j9S-iG-rUk" id="Wvt-nH-W0z"/>
+                        <outlet property="totalLabel" destination="vm9-7v-QYq" id="5KH-zI-Imy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
